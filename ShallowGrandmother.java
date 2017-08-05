@@ -19,5 +19,12 @@ public class ShallowGrandmother {
 		allowed = (age > 25 && age < 40 && (income > 50000 || cute >= 8.5));
 		
 		System.out.println("Allowed to date my grandchild? " + allowed);
+		
+		System.out.print("Hi, I'm the other grandmother. \nMy only question is: how happy do you make them, on a scale of 0.0 to 10.0?: ");
+		double happiness = keyboard.nextDouble();
+		
+		boolean allowed2 = (happiness > 6.9);
+		
+		System.out.println("Allowed to date my grandchild? " + allowed2);
 	}
 }
